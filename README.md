@@ -22,3 +22,5 @@ icon: dna
 More projects and information will be added over time.
 
 If you would like to suggest any edits, contact me using my [website contact form](https://curtisholt.online/contact).
+
+Documentation is backed up to the associated [GitHub repository](https://github.com/curtisjamesholt/Documentation).
