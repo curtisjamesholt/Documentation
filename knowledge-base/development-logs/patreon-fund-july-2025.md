@@ -2,7 +2,9 @@
 icon: message-pen
 ---
 
-# 18/07/25
+# Patreon Fund July 2025
+
+Patreon income: $280 -> £208.77 -> (£50/h rate for mixed skillset) 4 hours of work.
 
 BY-GEN - General Preparation&#x20;
 
