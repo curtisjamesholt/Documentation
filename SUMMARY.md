@@ -9,4 +9,4 @@
     * [Modular Workspaces](knowledge-base/blender-projects/modular-workspaces.md)
   * [Community Resources](knowledge-base/community-resources.md)
   * [Development Logs](knowledge-base/development-logs/README.md)
-    * [18/07/25](knowledge-base/development-logs/18-07-25.md)
+    * [Patreon Fund July 2025](knowledge-base/development-logs/patreon-fund-july-2025.md)

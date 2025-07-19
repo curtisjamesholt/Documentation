@@ -19,6 +19,10 @@ icon: dna
 [community-resources.md](knowledge-base/community-resources.md)
 {% endcontent-ref %}
 
+{% content-ref url="knowledge-base/development-logs/" %}
+[development-logs](knowledge-base/development-logs/)
+{% endcontent-ref %}
+
 More projects and information will be added over time.
 
 If you would like to suggest any edits, contact me using my [website contact form](https://curtisholt.online/contact).
