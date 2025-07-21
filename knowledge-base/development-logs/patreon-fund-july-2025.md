@@ -7,7 +7,7 @@ icon: message-pen
 {% hint style="info" %}
 **Patreon income:** $280 -> £208.77 -> (£50/h rate for mixed skillset) 4 hours of work.\
 **Total time:** 10 hours, 25 minutes.\
-**Unpaid overtime:** 6 hours, 25 minutes (£50/h) = >£300
+**Unpaid overtime:** 6 hours, 25 minutes (£50/h) = >£300.
 {% endhint %}
 
 <details>
