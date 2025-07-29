@@ -6,8 +6,8 @@ icon: message-pen
 
 {% hint style="info" %}
 **Patreon income:** $280 -> £208.77 -> (£50/h rate for mixed skillset) 4 hours of work.\
-**Total time:** 10 hours, 25 minutes.\
-**Unpaid overtime:** 6 hours, 25 minutes (£50/h) = >£300.
+**Total time:** 17 hours, 7 minutes.\
+**Unpaid overtime:** 13 hours, 7 minutes (£50/h) = >£650.
 {% endhint %}
 
 <details>
@@ -359,3 +359,138 @@ Template
 * \[ Time total for today: 4 hours 33 minutes ]
 
 </details>
+
+<details>
+
+<summary>21 July 2025</summary>
+
+* Node group getter/setter in holt tools now also works for world nodes and geometry nodes.
+
+- Fixed 'backup generation' result in BY-GEN'
+- \[Time + 32 mins]
+- At the moment, just hunting for extra bugs in this current version of by-gen and making notes for functionality to remove once we do the jump to version 10, after making this stable. Currently bumping into a bug relating to the generation of ambient occlusion maps.
+- I can see that the way vertex color groups has been managed has changed, they are now considered color attributes. They are added with bpy.ops.geometry.color\_attribute\_add(name="Color"). That will replace bpy.ops.mesh.vertex\_color\_add(), but we need to look at the process for accessing that data afterwards.
+- Also editing public notice video on the side letting people know about the new updates to free tools (and modular workspaces). Now exporting and encoding that before preparing the admin and uploading prior to release.
+- I'm getting some success finding the color attributes by using o.data.attributes\[0], which returns a reference to the Color attribute created.
+- Pre-uploading the public notice video.
+- Video now prepared for release, likely tomorrow, now continuing with trying to fix the lingering 9.2.1 BY-GEN bugs prior to making available online, but also need to remember to upload the new version of the generator's lab content pack at the same time with the right version notice.
+- First set of errors for the ambient occlusion vertex color generation operation have been resolved, next set now.
+- Actually, going to make an executive decision to remove this operation from the interface, because it was originally only needed for an experimental grunge geo nodes pack that isn't present, and we don't need it for version 10. Rather than get frustrated on the fixing process, just going to remove it from access. It's contained under helper tools under the surface effects panel.
+
+* This has now been removed from the interface, now moving on.
+
+- Now going to do some cleanup before defining this as BY-GEN 9.2.1.
+- Preparing zip files for BY-GEN 9.2.1 and The Generator's Lab for BY-GEN 9.2.1, considering them as 'release candidates'.
+- Tried manual install and now the generator's lab content isn't being brought in, okay I think it's because we had period characters in the name of the folder.
+
+* Fixed this, and now I think they are ready for uploading.
+
+- \[Time + 1 hour 17 minutes ]
+- Files for both BY-GEN and The Generator's Lab have been uploaded to Gumroad and Superhive, now need to replace the code on the public BY-GEN repository.
+- Restructuring the official website web page for BY-GEN to simplify it and add a notice for a large refactoring for version 10.
+- Just pushed BY-GEN v9.2.1 to both the private development and public repo.
+- Going to do a local backup of both projects onto the production SSD, and then we should be in the clear to start doing the large V10 refactor that we seem to be quite excited about.
+
+* That backup is now done.
+
+- Making some notes on the kind of base effects we want after the refactor.
+- I'm looking at the mesh effects section and wondering if we really need them split into parametric and structural sections for 10+.
+- Created a folder in the official content pack thumbnails\_mesh\_effects, to see if we can start making the separate modes redundant.
+
+* Hiding registration for the parametric and structural panels.
+* Also deleting the ambient occlusion pre-operation code.
+
+- Doing many destructive changes, removing classes, will discover errors as they arise, trying to knock mesh effects back into only one section.
+- We are bumping into many points of failure as due to destructive changes in case, there are many places where references need to be made when setting up a content management system like this, it will take time to work through them all.
+- We're at a point now where the mesh effects panel does look quite independent, however nothing is showing in the field, but that's understandable since we haven't put anything in the associated thumbnails folder. Maybe I will copy something over from one of the other official content folders just to see if it brings in the content.
+
+* Testing, and I can see that it does. The next step is putting in a button to actually apply the effect to selected.
+* Now we have the button appearing as the solo 'mesh' effect import class is registered, but when trying to apply the effect, there is an error. I know this effect is not specifically for this category, but I believe the import process should still work.
+* The error says that we cannot use current file as a library but I'm not sure where it thinks we're passing the current file anywhere.
+* I think it's because nothing is being passed in objname.
+* Now when passing colpath and colname in the obj arguments, trying to apply gives an object selection out of range error.
+* Okay there might have been something subtle about the arguments we provided, because after looking back at the old parametric import class and copying the argument layout from that to the new mesh effect function call, it now seems to work.
+
+- We can continue simplifying the interface and removing unnecessary code now.
+- \[Time + 1 hour 55 minutes ]
+- I'm now going to look at trying to remove unnecessary classes. I also notice that we have a tickbox for 'make collection unique' under the mesh selector now, so I just want to quickly check that we have a unique property for that, so it doesn't accidentally use the property from the volume effects.
+
+* Yep, just checked and it looks like we also created a unique property in BGProperties so the mesh effects have their own selection for making the imported collections unique.
+
+- \[Time + 14 minutes ]
+
+</details>
+
+<details>
+
+<summary>23 July 2025</summary>
+
+* Worked on other projects (Modular Workspaces and Holt Tools) over the last few days but didn't log time as mixed free and paid, now getting back to BY-GEN V10 refactor.
+* Firstly, I want to simplify the interface, so I'm going to hide the helper tool sections and maybe trim off the extra buttons next to the content pack drop downs that aren't required.
+* While working on that, I will also hide the structured generation and scattering panels - I'd rather focus on a small set of high quality features.
+* Changed metadata version to 10, Blender version to 4.5.
+* I'm noticing that there are a lot of bloat classes and old files that we can probably remove to simplify. Maybe see how much we can condense into fewer files as well. A good opportunity to make everything nicer to keep track of and work with.
+* Disconnected and removed menus.py, which was responsible for shift + a menus that we won't need anymore.
+* Managed to remove and hide structured generation and scattering and deleted associated generation files attached to those.
+* Also removed the tools panel, but that one could come back in the future if needed. Added comment notes next to the classes we have commented out from registration noting that they were removed for V10.
+* Saw that we had a panel in the properties editor, so removed registration for those classes as well, will try to delete the code now.
+* Simplifying the info panel to have just one button link to my website.
+
+- Changed the icon for the link button to a python icon.
+
+* Changed the icon for the volume effects panel to be the newer outliner volume icon (at least I think it's newer).
+* Changed the icon for the mesh effects panel to be the newer outliner mesh icon.
+* Changed the icon for the surface effects panel to be the outliner surface icon.
+* Simplified the panels even further by removing 'effects' from the titles of each panel as it seemed redundant and repetitive.
+* Changed every 'apply to selected' button text to just 'apply'.
+* Created a new settings panel to hold all general settings, underneath the other panels, want to move the 'make collection unique' checkbox to it and make it singular so it applies to all imported effects.
+  * Will need to define new property for the general version. (Done)
+
+- Then will need to look for references to all individual versions and replace with the new general version. The previous versions we can search for are:
+
+* Se\_unique\_collection (References Done, Property Deleted)
+* Me\_unique\_collection (References Done, Property Deleted)
+* Mp\_unique\_collection (References Done, Property Deleted)
+* Ms\_unique\_collection (References Done, Property Deleted)
+* Ve\_unique\_collection (References Done, Property Deleted)
+
+- There is a lot of cleanup still to do in the properties - lots of them that are no longer relevant.
+- Now all of the collection unique interface references and calls have been replaced with the general version, now need to put together the settings panel and move the single checkbox there to keep things simple.
+
+* That is now done, so now we can remove the checkboxes from the original panel elements.
+
+- This is now done, things are looking neater, and I'm noticing a lot of excess classes in the code we can probably remove now.
+
+* Removed all references and classes for the mesh effects subtypes - parametric, structural, displacement, to keep with the concept of a simplified BY-GEN V10.
+* Deleted all classes in the mesh helper tools section and removed registration references.
+* Getting some errors now but that was bound to happen when modifying properties relating to all this asset refreshing.
+
+- I think I've gotten it working now. When registering the addon for the first time, if the properties weren't completely in order, then it would not successfully register all of the rest leading to lingering issues when continuing to use features of the addon in the same open instance of Blender.
+
+* What this means is we have now simplified effects.py down into just surface, mesh and volume classes, along with settings and the new function we created for handling all types of imports. We must be pretty much ready to start working on the content side of things, but there are still the lingering buttons next to the content pack drop downs for each panel.
+* \[ Time + 1 hour 10 minutes ]
+* Maybe we should also add a button to the content packs directory in the settings panel.
+
+- That has now been added, so we can remove it from the other panels.
+
+* \[ Time + 13 minutes ]
+
+</details>
+
+<details>
+
+<summary>24 July 2025</summary>
+
+* Going to carry on with the cleanup of the smaller panel buttons.
+
+- Specifically removing the smaller button to open the local content packs, as well as the website link button, but leaving the refresh one (even though it's better for Blender to be restarted after installing content packs for the addon.
+
+* Those extra buttons have been commented out now, and I quite like how the panels look, so it might be time to start working on the graphics and abstraction node group planning for the differential effect categories in each pillar.
+* Working on a conceptual thumbnail for volume effects - distribution.
+* Conceptual thumbnail for mesh effects - deformation has also been created, but it's just a placeholder.
+* While working on conceptual thumbnails, refamiliarizing with geometry nodes, manipulating points in relation to geometry, etc.
+* It's taking a while to figure out to geometry nodes effects. Of course, when it comes to making the content for real, I will be consulting with geo nodes experts.
+* \[ Time + 1 hour 21 minutes ]
+
+</details>
+
