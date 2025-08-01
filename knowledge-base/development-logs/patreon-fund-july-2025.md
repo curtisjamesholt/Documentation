@@ -6,8 +6,8 @@ icon: message-pen
 
 {% hint style="info" %}
 **Patreon income:** $280 -> £208.77 -> (£50/h rate for mixed skillset) 4 hours of work.\
-**Total time:** 17 hours, 7 minutes.\
-**Unpaid overtime:** 13 hours, 7 minutes (£50/h) = >£650.
+**Total time:** 20 hours, 31 minutes.\
+**Unpaid overtime:** 16 hours, 31 minutes (£50/h) = \~£825.
 {% endhint %}
 
 <details>
@@ -491,6 +491,36 @@ Template
 * While working on conceptual thumbnails, refamiliarizing with geometry nodes, manipulating points in relation to geometry, etc.
 * It's taking a while to figure out to geometry nodes effects. Of course, when it comes to making the content for real, I will be consulting with geo nodes experts.
 * \[ Time + 1 hour 21 minutes ]
+
+</details>
+
+<details>
+
+<summary>29 July 25</summary>
+
+* Continuing work on distribution for surface effects.
+* Overwriting official content pack file with the thumbnail test file, making good headway with setting up surface distribution category, but the variables / attributes are confusing.
+* Consulting with Charan on making variables for distribution simpler.
+* Too many things to note, Charan is runnig through many possibilities with us.
+* Noise distributions, proximities, etc.
+* Charan passed work back, I can compress it in terms of user design.
+* \[ Time +1 hour 56 minutes ]
+
+</details>
+
+<details>
+
+<summary>30 July 25</summary>
+
+* Posting a visual experiment from last night's work to socials, a good confidence boost for being able to demonstrate fun interactive visuals for people when the logic library for the addon has expanded.
+
+- [https://x.com/curtisjamesholt/status/1950506006154301797](https://x.com/curtisjamesholt/status/1950506006154301797)
+- Inspired by this new artwork, I'm thinking of taking that lighting / material setup and using it for the thumbnail defaults. Keep changing my mind about that, but I want it to feel right for people.
+- Now I need to focus on simplifying the parameters, giving them names to make them more understandable for users, separating the logic sections into more modular units, etc.
+- Separated the node areas for the distribution logic so far into easy to identify frames, ready for potential node grouping.
+- Charan has also shown me more changed relating to capturing effects within the inside of a mesh hull. I'm continuing to simplify the logic into node groups on my end, so asking him if we can merge.
+- Discussing extra changes with Charan who has been contributing more work, discussing differential normal inputs.
+- \[ Time + 1 hour 28 minutes ]
 
 </details>
 
