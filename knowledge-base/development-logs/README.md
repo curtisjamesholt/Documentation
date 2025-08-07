@@ -7,9 +7,10 @@ icon: microchip
 
 {% hint style="info" %}
 Updated 5 August 2025.\
-Last income (actual): £190.30\
-Hours paid for this month: \~3.8 hours.\
-Accumulated overtime remaining: 12 hours, 31 minutes.
+Income from fund (actual): **£190.30** (£50/h rate for mixed skillset).\
+Hours paid for this month: **\~3.8 hours**.\
+Accumulated overtime remaining: **12 hours, 31 minutes**.\
+Estimated due: **£635.53.**
 {% endhint %}
 
 {% content-ref url="patreon-fund-july-2025.md" %}

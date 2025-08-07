@@ -5,9 +5,7 @@ icon: message-pen
 # Patreon Fund July 2025
 
 {% hint style="info" %}
-**Patreon income:** $280 -> £208.77 -> (£50/h rate for mixed skillset) 4 hours of work.\
-**Total time:** 20 hours, 31 minutes.\
-**Unpaid overtime:** 16 hours, 31 minutes (£50/h) = \~£825.
+**Total time:** 20 hours, 31 minutes.
 {% endhint %}
 
 <details>
