@@ -5,7 +5,7 @@ icon: message-pen
 # Patreon Fund August 2025
 
 {% hint style="info" %}
-Total time: 9 hours, 37 minutes. (Not yet added to total)
+Total time: 9 hours, 37 minutes. ☑️
 {% endhint %}
 
 <details>
