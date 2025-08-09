@@ -13,6 +13,10 @@ Accumulated overtime remaining: **12 hours, 31 minutes**.\
 Estimated still due to cover overtime: **£635.53.**
 {% endhint %}
 
+{% content-ref url="patreon-fund-august-2025.md" %}
+[patreon-fund-august-2025.md](patreon-fund-august-2025.md)
+{% endcontent-ref %}
+
 {% content-ref url="patreon-fund-july-2025.md" %}
 [patreon-fund-july-2025.md](patreon-fund-july-2025.md)
 {% endcontent-ref %}

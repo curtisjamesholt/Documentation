@@ -10,3 +10,4 @@
   * [Community Resources](knowledge-base/community-resources.md)
   * [Development Logs](knowledge-base/development-logs/README.md)
     * [Patreon Fund July 2025](knowledge-base/development-logs/patreon-fund-july-2025.md)
+    * [Patreon Fund August 2025](knowledge-base/development-logs/patreon-fund-august-2025.md)
