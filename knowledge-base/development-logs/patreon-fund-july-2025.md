@@ -4,10 +4,6 @@ icon: message-pen
 
 # Patreon Fund July 2025
 
-{% hint style="info" %}
-**Total time:** 20 hours, 31 minutes.
-{% endhint %}
-
 <details>
 
 <summary>18 July 2025</summary>
