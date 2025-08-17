@@ -74,4 +74,22 @@ icon: message-pen
 
 \+ 59 minutes
 
+* I think V4 of the community material pack is ready, so we can make a backup of this and list it at the current time.
+
+\>>> COMMUNITY MATERIAL PACK V4 PRE-RELEASE.
+
+* Published to patreon, added to website member's lounge.
+* Patreon web page has been updated with even more information including a short roadmap of upcoming releases (in this case, the community material pack).
+* \+ 26 minutes x
+
+</details>
+
+<details>
+
+<summary>12 August 2025</summary>
+
+* We've managed to create an alien monstrosity with tentacles flailing everywhere with the logic nodes, continuing with experiments. Extended sessions in Discord running tests while thinking of how to modularize inputs for node groups.
+* \+ 2 hour 2 minute x
+* \+ 2 minute. X
+
 </details>
