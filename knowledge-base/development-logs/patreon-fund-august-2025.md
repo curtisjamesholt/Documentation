@@ -93,3 +93,48 @@ icon: message-pen
 * \+ 2 minute. X
 
 </details>
+
+<details>
+
+<summary>18 August 2025</summary>
+
+* Regrouping with Charan, deciding which direction to take. Talked about how for the mesh effects pillar, the deformation logic library we are working on is currently blended with both deformation and surface effect distribution nodes, which is a bit messy, so we need to focus on trimming down the deformation.
+* Effectively decided that surface deformation was done.
+* Created an (S) Mesh Deconstruction library as a placeholder.
+* Working on (S) Volume Distribution, thinking of effects that can be done and doing research.
+* Created (S) Surface Growth, playing with a snow effect, but opening the door to more varied effects with these additional logic libraries.
+* \+ 1 hour 53 min .
+* Later in the day, again in call with Charan, working on reaction diffusion simulations. This may end up in a surface growth library (or a mesh deformation library).
+* Hili (a patron) has joined the call and is taking part in some discussions.
+* Ben (Cartesian Caramel) has also joined the conversation. We discuss approaches.
+* \+ 1 hour 5 min
+* \+ 22 min
+* (Final: 3 hour 20 min)
+
+</details>
+
+<details>
+
+<summary>20 August 2025</summary>
+
+* Charan is showing me Blender 5 bundles and closures, we're wondering whether to target that version instead since it simplified user interaction so much.
+* \+ 31 minutes.
+* Back in call with Charan, continuing dive into bundle system for Blender 4.5. Speculative testing.
+* Ben also here talking, deciding not to focus on bundles and closures for the actual release, but it's a good exercise to learn the logic of the system.
+* \+ 42 mins
+
+(Final: 1 hour 13 min )
+
+</details>
+
+<details>
+
+<summary>21 August 2025</summary>
+
+* Back in call with Charan.
+* Decided that (S) Distribution is done, tidied things up. Trying to encourage Charan to do less random experimentation (or at least control it to subvert endless perfectionism).
+* (S) Mesh Deformation is now done. Again, all of these things can be expanded upon in the future, but I am pushing to get a few logic libraries to a usable minimum.
+* Looking at volume distribution, not quite ready for finalizing yet, but we're getting closer.
+* \+ 2h 2m
+
+</details>
