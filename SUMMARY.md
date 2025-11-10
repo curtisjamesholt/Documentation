@@ -12,3 +12,4 @@
     * [Patreon Fund July 2025](knowledge-base/development-logs/patreon-fund-july-2025.md)
     * [Patreon Fund August 2025](knowledge-base/development-logs/patreon-fund-august-2025.md)
     * [Patreon Fund September 2025](knowledge-base/development-logs/patreon-fund-september-2025.md)
+    * [Patreon Fund October 2025](knowledge-base/development-logs/patreon-fund-october-2025.md)
