@@ -8,7 +8,7 @@ icon: message-pen
 
 <summary>13 December 2025</summary>
 
-* Added BY-GEN V10 Skeelton Testing version to the patern.
+* Added BY-GEN V10 Skeleton Testing version to the patern.
 * Added a load of materials to the community material pack for V5, comprising community submissions from Discord forum.
 
 \+ 1 hour 22 minutes.
