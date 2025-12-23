@@ -20,3 +20,7 @@ icon: microchip
 {% content-ref url="patreon-fund-october-2025.md" %}
 [patreon-fund-october-2025.md](patreon-fund-october-2025.md)
 {% endcontent-ref %}
+
+{% content-ref url="patreon-fund-december-2025.md" %}
+[patreon-fund-december-2025.md](patreon-fund-december-2025.md)
+{% endcontent-ref %}
