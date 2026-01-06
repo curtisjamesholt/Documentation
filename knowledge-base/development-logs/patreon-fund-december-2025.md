@@ -39,6 +39,8 @@ Continued work on the black sands environment, thinking of ways to present it to
 
 \+ 1 hour 26 minutes
 
+(Some minutes may have been missed.)
+
 (7 hours 19 minutes total)
 
 </details>
