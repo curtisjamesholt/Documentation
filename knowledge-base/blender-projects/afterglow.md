@@ -15,15 +15,9 @@ Designed for the **Cycles rendering engine**, Afterglow helps to give your light
 
 The types of assets available to you include **light cages** (see the studio cages and character cages sections below), materials, and more comprehensive **studio environments**, which have been designed to allow for an **immense level of customization**
 
-{% columns %}
-{% column width="25%" %}
 <a href="https://curtisjamesholt.gumroad.com/l/afterglow" class="button primary" data-icon="dollar-sign">Get it on Gumroad</a>
-{% endcolumn %}
 
-{% column %}
 <a href="https://superhivemarket.com/products/afterglow" class="button primary" data-icon="dollar-sign">Get it on Superhive</a>
-{% endcolumn %}
-{% endcolumns %}
 
 ## Installation
 
@@ -59,7 +53,25 @@ The following are a collection of resources that will help you learn how to use 
 
 <summary>Update Videos</summary>
 
-[Afterglow V2 for Blender is Here](https://www.youtube.com/watch?v=HNJ3PxEbJDo)
+[Afterglow V2.2](https://youtu.be/2-_zp3l7_cU)
+
+[Afterglow V2.1](https://youtu.be/62j5fGlhOyk)
+
+[Afterglow V2](https://www.youtube.com/watch?v=HNJ3PxEbJDo)
+
+</details>
+
+<details>
+
+<summary>Use Cases and Experiments</summary>
+
+[Prehistoric Lighting in Blender! (Afterglow)](https://youtu.be/4lrWN0vLqhg)
+
+[Product Vis Lighting Templates for Blender](https://youtu.be/EoFrRhKTkSc)
+
+[Turning a Blender Scene into a Lighting Showcase](https://www.youtube.com/watch?v=YRvnrHAwvK0)
+
+[My Secret to Epic Lighting in Blender](https://www.youtube.com/watch?v=w8pnEon3qM8)
 
 </details>
 
@@ -70,15 +82,5 @@ The following are a collection of resources that will help you learn how to use 
 [Don't Be Afraid of Lighting in Blender](https://www.youtube.com/watch?v=2DZ8vJmUb4s)
 
 [Take Your Lighting Even Further in Blender](https://www.youtube.com/watch?v=o810jZk4FUs)
-
-</details>
-
-<details>
-
-<summary>Experiments</summary>
-
-[Turning a Blender Scene into a Lighting Showcase](https://www.youtube.com/watch?v=YRvnrHAwvK0)
-
-[My Secret to Epic Lighting in Blender](https://www.youtube.com/watch?v=w8pnEon3qM8)
 
 </details>
