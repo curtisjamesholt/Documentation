@@ -7,10 +7,6 @@ icon: circle-info
 
 # Creating Content Packs (Including From Asset Libraries)
 
-{% hint style="warning" %}
-This page is under development.
-{% endhint %}
-
 A few conditions have to be met for an asset library to be understood by BY-GEN. They are described below.
 
 ### Step 1 - Uniform Folder and Naming Convention
