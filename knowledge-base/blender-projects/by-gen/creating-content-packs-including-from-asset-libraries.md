@@ -5,7 +5,7 @@ description: >-
 icon: circle-info
 ---
 
-# Turning Asset Libraries into Content Packs
+# Creating Content Packs (Including From Asset Libraries)
 
 {% hint style="warning" %}
 This page is under development.
@@ -18,6 +18,36 @@ A few conditions have to be met for an asset library to be understood by BY-GEN.
 Your asset library needs to exist within its own self-contained folder. For example, the standard content pack that comes with BY-GEN is called 'Official'. Inside of the 'content\_packs' folder in the root directory of the addon, you will see the 'Official' folder. Inside of this folder is 'Official.blend'.
 
 Therefore, if youre content pack was called 'MyContent', you would need to create a folder called 'MyContent' which includes a blend file containing your assets named 'MyContent.blend'.
+
+<figure><img src="../../../.gitbook/assets/bygen_contentpack_folder.jpg" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Note:&#x20;
+
+* The 'Official' file in the image is a .blend file. There is no Blender icon for the file, as the file format has not been associated with Blender on the computer taking the screenshot.
+* Asset library folders will likely have one or two additional text files in the folder describing the arrangement of categories in the asset browser. Do not worry that there are no text files in the example image provided.
+* Ignore the black bar, it is just hiding a development folder that is not relevant to the creation of content packs.
+* Pay attention to how we are looking inside of a folder called 'Official' which is itself inside of the content\_packs folder in the addon directory.
+{% endhint %}
+
+**Where is the location of 'content\_packs'?**
+
+If you are unsure of where to place new content packs, take a look at the [Blender documentation](https://docs.blender.org/manual/en/latest/advanced/blender_directory_layout.html) to see where local files are stored on your computer. Usually it will be at the following locations:
+
+```
+Linux:
+$HOME/.config/blender/5.0/
+
+macOS:
+/Users/$USER/Library/Application Support/Blender/5.0/
+
+Windows:
+%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\5.0\
+```
+
+Alternatively, in the BY-GEN interface, under the 'Settings' panel, click the 'Local Content Packs' button to automatically open the content\_packs folder:
+
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Give the Geometry Nodes Trees a Proper Prefix
 
@@ -45,6 +75,8 @@ For each of the effects (geometry nodes trees) you want to make available to the
 **But wait! How does BY-GEN know which geometry nodes tree to associate with each thumbnail?**\
 The names of the thumbnail images you create **MUST** be identical to the name of the geometry nodes tree you want the user to import.
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Let's back up for a second to explain this:
 
@@ -89,13 +121,9 @@ Double.
 
 Triple.
 
-Quadruple.
+Quadruple check the names.
 
-Check.
-
-The names.
-
-The number one cause of node tree detection issues in BY-GEN is accidental mis-naming of content. It's very easy to accidentally have a capital letter in a thumbnail that isn't present in the actual node tree name. The same also applies to the name of the content pack folder compared to the name of the content pack blend file. You **must** be thorough with checking the names.
+The number one cause of node tree detection issues in BY-GEN is the accidental mis-naming of content. It's very easy to accidentally have a capital letter in a thumbnail that isn't present in the actual node tree name. The same also applies to the name of the content pack folder compared to the name of the content pack blend file. You **must** be thorough with checking the names.
 {% endhint %}
 
 Hopefully, you can now access your content, but if you are certain that you have done everything correctly and the content is either:

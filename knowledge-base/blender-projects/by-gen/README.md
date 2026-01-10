@@ -27,7 +27,7 @@ The exact method of importing the content will also depend on the naming convent
 Content packs can be added to BY-GEN via the 'content\_packs' folder in the addon's root directory. They can also act as Asset Libraries, provided the geometry nodes trees have been flagged as assets in the blend file. The node trees within the official content pack that comes with the BY-GEN addon have already been marked as assets, meaning you can optionally assign it as an asset library within your user preferences.
 
 {% hint style="warning" %}
-Learn how to [Turn Asset Libraries into Content Packs](turning-asset-libraries-into-content-packs.md) here.
+Learn how to [Turn Asset Libraries into Content Packs](creating-content-packs-including-from-asset-libraries.md) here.
 {% endhint %}
 
 {% hint style="info" %}
