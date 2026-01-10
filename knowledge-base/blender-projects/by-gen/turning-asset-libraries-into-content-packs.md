@@ -71,3 +71,29 @@ This inner-file organization is not necessary for BY-GEN to find the content, ho
 However, despite this step being listed as 'optional', it is **necessary** to have a template object if you are using a more advanced import method, such as (Ts) or (Tr), as BY-GEN will import this object prior to reassigning object targets.
 
 This is another reason why I believe it is good practice to have a unique object in your content pack file for each effect. If you wanted to expand into more advanced workflows in the future, it is more convenient.
+
+### Step 5 - Test the Content
+
+If you had Blender open during the entire process of creating new content pack files in the addon. Firstly, you are brave - well done you (it's always a good idea to close Blender and restart _after_ changes have been made). Secondly, I have implemented a 'refresh' operation which is visible in the interface. This can be seen to the right of the content pack drop-down menu, indicated by the double-arrow icon:
+
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+Pressing this icon _should_ refresh the addon's properties relating to content packs, therefore detecting the newly created content. However, as a matter of principle, I recommend closing and restarting Blender after making changes to the addon file-space.
+
+If you have been successful, your content pack should be visible in the drop-down list, and likewise: your thumbnails should be selectable in the effects list.
+
+{% hint style="danger" %}
+**Hold on Curtis, I could see the thumbnail for my effect, but when I tried to apply it, I got an error. What's wrong?**
+
+Double.
+
+Triple.
+
+Quadruple.
+
+Check.
+
+The names.
+
+The number one cause of node tree detection issues in BY-GEN is accidental mis-naming of content. It's very easy to accidentally have a capital letter in a thumbnail that isn't present in the actual node tree name. The same also applies to the name of the content pack folder compared to the name of the actual content pack blend file. You **must** be thorough with checking the names.
+{% endhint %}
