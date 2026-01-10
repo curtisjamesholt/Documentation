@@ -32,13 +32,13 @@ If you are unsure of where to place new content packs, take a look at the [Blend
 
 ```
 Linux:
-$HOME/.config/blender/5.0/
+$HOME/.config/blender/5.0/scripts/addons/BY-GEN/content_packs
 
 macOS:
-/Users/$USER/Library/Application Support/Blender/5.0/
+/Users/$USER/Library/Application Support/Blender/5.0/scripts/addons/BY-GEN/content_packs
 
 Windows:
-%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\5.0\
+%USERPROFILE%\AppData\Roaming\Blender Foundation\Blender\5.0\scripts\addons\BY-GEN\content_packs
 ```
 
 Alternatively, in the BY-GEN interface, under the 'Settings' panel, click the 'Local Content Packs' button to automatically open the content\_packs folder:
