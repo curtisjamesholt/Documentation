@@ -13,7 +13,7 @@ A few conditions have to be met for an asset library to be understood by BY-GEN.
 
 Your asset library needs to exist within its own self-contained folder. For example, the standard content pack that comes with BY-GEN is called 'Official'. Inside of the 'content\_packs' folder in the root directory of the addon, you will see the 'Official' folder. Inside of this folder is 'Official.blend'.
 
-Therefore, if youre content pack was called 'MyContent', you would need to create a folder called 'MyContent' which includes a blend file containing your assets named 'MyContent.blend'.
+Therefore, if your content pack was called 'MyContent', you would need to create a folder called 'MyContent' which includes a blend file containing your assets named 'MyContent.blend'.
 
 <figure><img src="../../../.gitbook/assets/bygen_contentpack_folder.jpg" alt=""><figcaption></figcaption></figure>
 
