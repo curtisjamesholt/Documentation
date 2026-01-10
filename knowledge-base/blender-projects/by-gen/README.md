@@ -5,7 +5,7 @@ icon: biohazard
 # BY-GEN
 
 {% hint style="warning" %}
-( This page is under development. )
+This page is under development.
 {% endhint %}
 
 BY-GEN (V10 and onwards) is a usability addon designed to simplify the artistic workflow of using geometry nodes for procedural and generative effects.
@@ -25,6 +25,10 @@ The exact method of importing the content will also depend on the naming convent
 #### Content Pack and Asset Libraries
 
 Content packs can be added to BY-GEN via the 'content\_packs' folder in the addon's root directory. They can also act as Asset Libraries, provided the geometry nodes trees have been flagged as assets in the blend file. The node trees within the official content pack that comes with the BY-GEN addon have already been marked as assets, meaning you can optionally assign it as an asset library within your user preferences.
+
+{% hint style="warning" %}
+Learn how to [Turn Asset Libraries into Content Packs](turning-asset-libraries-into-content-packs.md) here.
+{% endhint %}
 
 {% hint style="info" %}
 Learn more about [Asset Libraries](https://docs.blender.org/manual/en/latest/files/asset_libraries/introduction.html) in the official Blender documentation.
