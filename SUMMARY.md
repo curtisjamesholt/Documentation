@@ -7,6 +7,8 @@
     * [Afterglow](knowledge-base/blender-projects/afterglow.md)
     * [Hex Scatter](knowledge-base/blender-projects/hex-scatter.md)
     * [Modular Workspaces](knowledge-base/blender-projects/modular-workspaces.md)
+    * [BY-GEN](knowledge-base/blender-projects/by-gen/README.md)
+      * [Turning Asset Libraries into Content Packs](knowledge-base/blender-projects/by-gen/turning-asset-libraries-into-content-packs.md)
   * [Community Resources](knowledge-base/community-resources.md)
   * [Development Logs](knowledge-base/development-logs/README.md)
     * [Patreon Fund January 2026](knowledge-base/development-logs/patreon-fund-january-2026.md)

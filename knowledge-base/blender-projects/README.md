@@ -1,5 +1,5 @@
 ---
-description: This page contains a directory for projects relating to the Blender ecosystem.
+description: This page contains a directory of my Blender-related projects.
 icon: blender
 ---
 
@@ -17,3 +17,6 @@ icon: blender
 [modular-workspaces.md](modular-workspaces.md)
 {% endcontent-ref %}
 
+{% content-ref url="by-gen/" %}
+[by-gen](by-gen/)
+{% endcontent-ref %}
