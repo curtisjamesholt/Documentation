@@ -95,5 +95,14 @@ Check.
 
 The names.
 
-The number one cause of node tree detection issues in BY-GEN is accidental mis-naming of content. It's very easy to accidentally have a capital letter in a thumbnail that isn't present in the actual node tree name. The same also applies to the name of the content pack folder compared to the name of the actual content pack blend file. You **must** be thorough with checking the names.
+The number one cause of node tree detection issues in BY-GEN is accidental mis-naming of content. It's very easy to accidentally have a capital letter in a thumbnail that isn't present in the actual node tree name. The same also applies to the name of the content pack folder compared to the name of the content pack blend file. You **must** be thorough with checking the names.
 {% endhint %}
+
+Hopefully, you can now access your content, but if you are certain that you have done everything correctly and the content is either:
+
+* Not visible.
+* (Or) Not importing correctly.
+
+Then it may be due to a directory string issue. If your content pack name (or path to the content pack) contains unique characters (even including '.' periods), then please start by trying to simplify the naming to just simple characters and underscores.
+
+If you are still having issues, consider getting into contact via my contact page or (perhaps more usefully) our community Discord server.
