@@ -9,6 +9,7 @@
     * [Modular Workspaces](knowledge-base/blender-projects/modular-workspaces.md)
     * [BY-GEN](knowledge-base/blender-projects/by-gen/README.md)
       * [Creating Content Packs (Including From Asset Libraries)](knowledge-base/blender-projects/by-gen/turning-asset-libraries-into-content-packs.md)
+      * [Debugging in BY-GEN](knowledge-base/blender-projects/by-gen/debugging-in-by-gen.md)
   * [Community Resources](knowledge-base/community-resources.md)
   * [Development Logs](knowledge-base/development-logs/README.md)
     * [Patreon Fund January 2026](knowledge-base/development-logs/patreon-fund-january-2026.md)
