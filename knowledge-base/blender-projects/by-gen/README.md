@@ -4,6 +4,8 @@ icon: biohazard
 
 # BY-GEN
 
+<figure><img src="../../../.gitbook/assets/BY-GEN 10 Cover JPG.jpg" alt=""><figcaption></figcaption></figure>
+
 ### Introduction
 
 BY-GEN (V10 and onwards) is a usability addon designed to simplify the artistic workflow of using geometry nodes for procedural and generative effects.
