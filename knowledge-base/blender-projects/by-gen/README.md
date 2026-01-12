@@ -38,9 +38,9 @@ Learn more about [Asset Libraries](https://docs.blender.org/manual/en/latest/fil
 
 See the following page for more information on creating content packs (or making asset libraries compatible with the BY-GEN content pack system):
 
-{% content-ref url="turning-asset-libraries-into-content-packs.md" %}
-[turning-asset-libraries-into-content-packs.md](turning-asset-libraries-into-content-packs.md)
-{% endcontent-ref %}
+{% hint style="info" %}
+[Creating Content Packs (Including From Asset Libraries)](turning-asset-libraries-into-content-packs.md)
+{% endhint %}
 
 ***
 
@@ -48,6 +48,6 @@ See the following page for more information on creating content packs (or making
 
 BY-GEN V10+ allows for debugging information to be exposed to the console or written to a text log, which should simplify the process of identifying issues. See the linked page for more information:
 
-{% content-ref url="debugging-in-by-gen.md" %}
-[debugging-in-by-gen.md](debugging-in-by-gen.md)
-{% endcontent-ref %}
+{% hint style="info" %}
+[Debugging in BY-GEN](debugging-in-by-gen.md)
+{% endhint %}
