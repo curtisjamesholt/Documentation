@@ -51,3 +51,13 @@ BY-GEN V10+ allows for debugging information to be exposed to the console or wri
 {% hint style="info" %}
 [Debugging in BY-GEN](debugging-in-by-gen.md)
 {% endhint %}
+
+***
+
+### For Developers
+
+Below is some information specific to developers of the BY-GEN addon (or anyone making alternate versions of the addon).
+
+{% hint style="info" %}
+[BY-GEN Layout for Distribution](by-gen-layout-for-distribution.md)
+{% endhint %}

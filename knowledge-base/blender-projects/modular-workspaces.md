@@ -29,7 +29,7 @@ Once downloaded, you must extract the folder contained inside the zip file anywh
 * Paste the copied directory into the 'path' field.
 * Go to the asset browser, refresh the list of libraries, and look for Modular Workspaces (Library).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **In older versions of Modular Workspaces, the asset library came in the form of a single .blend file rather than a .zip file. The more modern .zip file version contains a folder that preserved category data, meaning the content will already be organized into categories once the asset library is open in the asset browser.**
@@ -51,7 +51,7 @@ You may also install the addon manually by extracting the addon files to the scr
 
 {% columns %}
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
