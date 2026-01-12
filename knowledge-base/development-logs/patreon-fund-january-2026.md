@@ -83,3 +83,42 @@ icon: message-pen
 Total: 3 hours 38 minutes
 
 </details>
+
+<details>
+
+<summary>10 January 2026</summary>
+
+* Writing documentation for BY-Gen including a guide on turning asset libraries into content packs for the addon.
+
+\+ 37 minutes
+
+* Finished first version of page explaining custom creation of content packs, including from asset libraries.
+
+\+ 38 minutes
+
+(1 hour 15 minutes total)
+
+</details>
+
+<details>
+
+<summary>11 January 2026</summary>
+
+* Going to do some investigation into directory issues to see if we might be able to have multiple options people can select from in case directory discovery goes wrong.
+* Discovered that directory issues on mac may be due to the omission of a trailing separator at the end of the filepath.\
+  This is because macOS is stupid.
+* Added much more comprehensive debugging information which will be written to the console if someone imports an effect while debug\_mode is set to true. Users will be able to screenshot the console, although showing the console on each operating system may be different.
+* Figured that it would be a good idea to dump the debug information to a log file at the root directory of the addon, since not every user will want to run Blender by console on non-Windows systems, so going to spend a bit of time setting that up. Also made a new property and checkbox that appears under the 'Debug Mode' checkbox that people can tick to output to the log. By default there will be no log output, as it would be unnecessary.
+* Basic outputting to log file is now working for (S) case, now need to add it for (Tr) and (Ts). I've also noticed that there is one more argument in the import function that can be removed so will do that afterwards.
+* Each of these things has been done now, so I will now push these changes to the repo.
+
+\+ 1 hour 30 minutes
+
+* Starting to write documentation to explain debugging features on the docs.curtisholt.online gitbook wiki.
+* Was not originally going to add BY-GEN version to the debug / log but it would be important, so adding that now.
+
+\+ 21 minutes
+
+( 1 hour 51 minutes total )
+
+</details>
