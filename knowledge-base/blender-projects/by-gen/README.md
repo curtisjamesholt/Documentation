@@ -59,5 +59,9 @@ BY-GEN V10+ allows for debugging information to be exposed to the console or wri
 Below is some information specific to developers of the BY-GEN addon (or anyone making alternate versions of the addon).
 
 {% hint style="info" %}
+[Can I Sell Content Packs for BY-GEN?](can-i-sell-content-packs-for-by-gen.md)
+{% endhint %}
+
+{% hint style="info" %}
 [BY-GEN Layout for Distribution](by-gen-layout-for-distribution.md)
 {% endhint %}
