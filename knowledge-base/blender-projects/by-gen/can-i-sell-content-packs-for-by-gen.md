@@ -6,9 +6,11 @@ icon: circle-info
 
 ### Short Answer
 
-Yes, of course you can.&#x20;
+Yes, of course you can.
 
 However, if you are new to the Blender creator ecosystem, then it would be appropriate to understand how licensing tends to work in this space.
+
+### What You Need to Know
 
 The BY-GEN addon itself is associated with the GPL license, taking its license from Blender. This means the code for BY-GEN can be modified and redistributed, so long as it stays free to access and modify.
 
