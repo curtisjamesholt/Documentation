@@ -60,6 +60,6 @@ DEBUG: End path separator DETECTED
 DEBUG: Final appending string is: C:\Users\curti\AppData\Roaming\Blender Foundation\Blender\5.0\scripts\addons\BY-GEN\content_packs\Official\Official.blend\NodeTree\(S) Surface Distribution
 ```
 
-Notice that the log contains general information about the user's system (operating system and architecture) as well as the version of Blender and BY-GEN being used. It would be prudent for the user to make a note of the version of BY-GEN being used.
+Notice that the log contains general information about the user's system (operating system and architecture) as well as the version of Blender and BY-GEN being used.
 
 Separately, information on the directory structure of the effect being imported is also provided. This is often a source of issues, especially if the directory structure is not appropriate for the operating system, or if there are naming parity issues within the content pack structure. Check the '[Creating Content Packs](turning-asset-libraries-into-content-packs.md)' page for more information on the naming parity requirements for BY-GEN.
