@@ -18,6 +18,10 @@ The workflow is simple:
 
 Depending on the logic library selected, one or more geometry nodes modifiers will be added to the target object/s.&#x20;
 
+{% hint style="danger" %}
+**Note:** BY-GEN V10 has been built for Blender 5.0+
+{% endhint %}
+
 ***
 
 ### Import Methods
