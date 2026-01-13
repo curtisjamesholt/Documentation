@@ -122,3 +122,35 @@ Total: 3 hours 38 minutes
 ( 1 hour 51 minutes total )
 
 </details>
+
+<details>
+
+<summary>12 January 2026</summary>
+
+* Packaging and cleaning the first release version of BY-GEN version 10 in preparation for pre-release.
+* Discovered a bunch of grammar issues in the usability text in node trees so did some cleanup.
+
+\+ 21 minutes.
+
+* Adding section to the documentation 'BY-GEN layout for distribution', which is a note to ourself about the file layout for BY-GEN for packaging. This may not be relevant to other people unless they want to modify and redistribute the addon.
+* Making a page on the documentation 'Can I Sell Content Packs for BY-GEN?'.
+
+\+ 34 minutes
+
+* Investigating the possibility of reincluding 'legacy' content, which may or may not be possible with the new import system.
+* Decided might leave that for a later point, so packaged it away in a folder.
+* Talking to Charan now, trying to get him to finish un-duplicating the node groups in the official content pack.
+* Duplicate checking seems to be done now, going to repackage the release zip for V10.
+* Sent the zip file to Charan installation seemed to work fine.
+
+\+ 1 hour 23 minutes
+
+* Forgot that I wanted to tag the geometry node content as assets within the official content pack so it can also be recycled as an asset library, but not sure on the best method, so going to take a look now.
+* Seems as though the root geometry node tree could be marked as an asset and will just be dragged in as a group from the asset browser, which is fine. Now to repackage the release version again.
+* Working on potential cover artwork for the V10 release.
+
+\+ 2 hour 11 minutes
+
+( Total: 4 hours 29 minutes )
+
+</details>
