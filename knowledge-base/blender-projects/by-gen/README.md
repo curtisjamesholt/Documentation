@@ -16,7 +16,11 @@ The workflow is simple:
 * Select a 'logic library' from one of the major categories (surface, mesh, volume).
 * Apply the effect to the selected object/s.
 
-Depending on the logic library selected, one or more geometry nodes modifiers will be added to the target object/s.&#x20;
+Depending on the logic library selected, one or more geometry nodes modifiers will be added to the target object/s.
+
+{% hint style="info" %}
+For a visual walkthrough of the V10+ changes, watch the [release video](https://youtu.be/ZbvDazHPLOc).
+{% endhint %}
 
 {% hint style="danger" %}
 **Note:** BY-GEN V10 has been built for Blender 5.0+
