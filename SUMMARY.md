@@ -13,6 +13,7 @@
       * [BY-GEN Layout for Distribution](knowledge-base/blender-projects/by-gen/by-gen-layout-for-distribution.md)
       * [Can I Sell Content Packs for BY-GEN?](knowledge-base/blender-projects/by-gen/can-i-sell-content-packs-for-by-gen.md)
       * [Changes Over Time](knowledge-base/blender-projects/by-gen/changes-over-time.md)
+      * [Video Directory](knowledge-base/blender-projects/by-gen/video-directory.md)
   * [Community Resources](knowledge-base/community-resources.md)
   * [Development Logs](knowledge-base/development-logs/README.md)
     * [Patreon Fund January 2026](knowledge-base/development-logs/patreon-fund-january-2026.md)

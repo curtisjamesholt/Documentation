@@ -81,3 +81,7 @@ BY-GEN has undergone many changes across the versions. If you would like to lear
 {% hint style="info" %}
 [Changes Over Time](changes-over-time.md)
 {% endhint %}
+
+{% hint style="info" %}
+[Video Directory](video-directory.md)
+{% endhint %}
