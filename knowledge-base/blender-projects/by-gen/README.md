@@ -71,3 +71,13 @@ Below is some information specific to developers of the BY-GEN addon (or anyone 
 {% hint style="info" %}
 [BY-GEN Layout for Distribution](by-gen-layout-for-distribution.md)
 {% endhint %}
+
+***
+
+### Additional Information
+
+BY-GEN has undergone many changes across the versions. If you would like to learn more about the philosophy of the changes, then consider the following page:
+
+{% hint style="info" %}
+[Changes Over Time](changes-over-time.md)
+{% endhint %}
