@@ -4,7 +4,7 @@ icon: circle-info
 
 # Video Directory
 
-Here is a list of previous videos about BY-GEN, OId videos have been made unlisted.
+Here is a list of previous videos about BY-GEN. OId videos have been unlisted.
 
 * [BY-GEN V10 is Here! (Blender 5.0+)](https://youtu.be/ZbvDazHPLOc)\
   Jan 14 2026
