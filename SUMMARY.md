@@ -7,6 +7,7 @@
     * [Afterglow](knowledge-base/blender-projects/afterglow.md)
     * [Hex Scatter](knowledge-base/blender-projects/hex-scatter.md)
     * [Modular Workspaces](knowledge-base/blender-projects/modular-workspaces.md)
+    * [Modular Metals](knowledge-base/blender-projects/modular-metals.md)
     * [BY-GEN](knowledge-base/blender-projects/by-gen/README.md)
       * [Creating Content Packs (Including From Asset Libraries)](knowledge-base/blender-projects/by-gen/turning-asset-libraries-into-content-packs.md)
       * [Debugging in BY-GEN](knowledge-base/blender-projects/by-gen/debugging-in-by-gen.md)

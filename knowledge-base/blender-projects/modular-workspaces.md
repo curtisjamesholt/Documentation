@@ -29,7 +29,7 @@ Once downloaded, you must extract the folder contained inside the zip file anywh
 * Paste the copied directory into the 'path' field.
 * Go to the asset browser, refresh the list of libraries, and look for Modular Workspaces (Library).
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **In older versions of Modular Workspaces, the asset library came in the form of a single .blend file rather than a .zip file. The more modern .zip file version contains a folder that preserved category data, meaning the content will already be organized into categories once the asset library is open in the asset browser.**
@@ -51,7 +51,7 @@ You may also install the addon manually by extracting the addon files to the scr
 
 {% columns %}
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -71,7 +71,7 @@ Once you have installed the **Modular Workspaces** addon and placed the **asset 
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -87,7 +87,7 @@ You can now optionally organize the assets into your own categories. These categ
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -99,7 +99,7 @@ My personal preference is to have one major category called ‘Setups’, and cr
 
 Each asset has been given a custom icon which has been color-coded to represent the type of data it contains. If you do not like the icons, you can change them in the properties sidebar (press N while hovering over the asset browser to open the sidebar).
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 🔵 **Blue represents collections which add objects to the scene.**
 
@@ -117,7 +117,7 @@ In addition to the unpacking functionality, the addon will add a few extra butto
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
@@ -129,7 +129,7 @@ Extra buttons can be added and changed in the ‘Left’, ‘Top’, ‘Right’
 {% endcolumn %}
 {% endcolumns %}
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 With version 1.5, your favorite asset browser settings now apply automatically when opening the Asset Browser with the convenience button.
 
@@ -146,11 +146,11 @@ HDRIs (also known as Environment Textures) are images that circle the entire dig
 
 {% columns %}
 {% column %}
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -164,7 +164,7 @@ Now you have the world lighting set up, it’s time to add some 3D content to th
 
 Drag a few collection assets into your 3D view, such as the diorama object, shadow catcher, camera and 3-Point lighting setup. Then, go up to the Setup panel and press ‘Unpack Setup’.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column %}

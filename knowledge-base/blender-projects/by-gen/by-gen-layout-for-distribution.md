@@ -10,7 +10,7 @@ This page is a note to anyone developing the BY-GEN addon. Prior to distribution
 * VSCode files and/or folders.
 * Git related files and/or folders.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Though the naming conventions have changed over time, it is usual to simply name the containing folder:
 
