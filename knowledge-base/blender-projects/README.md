@@ -28,3 +28,8 @@ icon: blender
 {% content-ref url="by-gen/" %}
 [by-gen](by-gen/)
 {% endcontent-ref %}
+
+{% content-ref url="easybpy/" %}
+[easybpy](easybpy/)
+{% endcontent-ref %}
+
