@@ -7,6 +7,7 @@
     * [Afterglow](knowledge-base/blender-projects/afterglow.md)
     * [Hex Scatter](knowledge-base/blender-projects/hex-scatter.md)
     * [Modular Workspaces](knowledge-base/blender-projects/modular-workspaces.md)
+    * [Curt's Defaults](knowledge-base/blender-projects/curts-defaults.md)
     * [Modular Metals](knowledge-base/blender-projects/modular-metals.md)
     * [Ambient Grunge](knowledge-base/blender-projects/ambient-grunge.md)
     * [Procedural Patterns](knowledge-base/blender-projects/procedural-patterns.md)
