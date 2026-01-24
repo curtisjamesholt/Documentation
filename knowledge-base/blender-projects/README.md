@@ -23,6 +23,12 @@ icon: blender
 [modular-metals.md](modular-metals.md)
 {% endcontent-ref %}
 
+### Other Paid Packages
+
+{% content-ref url="stylized-hard-surface-materials.md" %}
+[stylized-hard-surface-materials.md](stylized-hard-surface-materials.md)
+{% endcontent-ref %}
+
 ### Community Projects (Funded by Patrons)
 
 {% content-ref url="by-gen/" %}
@@ -31,5 +37,13 @@ icon: blender
 
 {% content-ref url="easybpy/" %}
 [easybpy](easybpy/)
+{% endcontent-ref %}
+
+{% content-ref url="community-material-pack.md" %}
+[community-material-pack.md](community-material-pack.md)
+{% endcontent-ref %}
+
+{% content-ref url="node-group-tools.md" %}
+[node-group-tools.md](node-group-tools.md)
 {% endcontent-ref %}
 
