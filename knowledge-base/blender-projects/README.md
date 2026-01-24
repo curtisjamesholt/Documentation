@@ -25,8 +25,24 @@ icon: blender
 
 ### Other Paid Packages
 
+{% content-ref url="ambient-grunge.md" %}
+[ambient-grunge.md](ambient-grunge.md)
+{% endcontent-ref %}
+
+{% content-ref url="procedural-patterns.md" %}
+[procedural-patterns.md](procedural-patterns.md)
+{% endcontent-ref %}
+
+{% content-ref url="procedural-moss.md" %}
+[procedural-moss.md](procedural-moss.md)
+{% endcontent-ref %}
+
 {% content-ref url="stylized-hard-surface-materials.md" %}
 [stylized-hard-surface-materials.md](stylized-hard-surface-materials.md)
+{% endcontent-ref %}
+
+{% content-ref url="the-generators-lab.md" %}
+[the-generators-lab.md](the-generators-lab.md)
 {% endcontent-ref %}
 
 ### Community Projects (Funded by Patrons)
@@ -41,6 +57,10 @@ icon: blender
 
 {% content-ref url="community-material-pack.md" %}
 [community-material-pack.md](community-material-pack.md)
+{% endcontent-ref %}
+
+{% content-ref url="holt-tools.md" %}
+[holt-tools.md](holt-tools.md)
 {% endcontent-ref %}
 
 {% content-ref url="node-group-tools.md" %}
