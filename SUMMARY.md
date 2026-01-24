@@ -15,6 +15,8 @@
       * [Can I Sell Content Packs for BY-GEN?](knowledge-base/blender-projects/by-gen/can-i-sell-content-packs-for-by-gen.md)
       * [Changes Over Time](knowledge-base/blender-projects/by-gen/changes-over-time.md)
       * [Video Directory](knowledge-base/blender-projects/by-gen/video-directory.md)
+    * [EasyBPY](knowledge-base/blender-projects/easybpy/README.md)
+      * [EasyBPY Usage Examples](knowledge-base/blender-projects/easybpy/easybpy-usage-examples.md)
   * [Community Resources](knowledge-base/community-resources.md)
   * [Development Logs](knowledge-base/development-logs/README.md)
     * [Patreon Fund January 2026](knowledge-base/development-logs/patreon-fund-january-2026.md)
