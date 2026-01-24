@@ -9,7 +9,7 @@ icon: medal
 
 Modular Metals is a collection of 100% procedural node groups and presets for building metal materials in Blender. This collection has been designed for the Cycles rendering engine, however some components may work in EEVEE with some adjustment.
 
-Please start off by taking a look at the [landing page](https://curtisholt.online/modular-metals) and by watching the [introductory video](https://www.youtube.com/watch?v=nuaui_H-J8s).
+Please start off by watching the [introductory video](https://www.youtube.com/watch?v=nuaui_H-J8s).
 
 #### Modularity
 

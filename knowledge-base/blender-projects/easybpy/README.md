@@ -23,7 +23,7 @@ If using EasyBPY in a separate addon, remember to package it inside your addon f
 The best place to start with EasyBPY is the [landing page](https://curtisholt.online/easybpy), where you can get a quick breakdown of the different features.\
 Please also consider reading [this blog post](https://curtisholt.online/blog/easybpy) to get a feel for the design philosophy of the project.
 
-Following this, feel free to take a look at my [Usage Examples](https://curtisholt.online/wiki/easybpy-usage-examples) post to get a feel for how the module can help you.
+Following this, feel free to take a look at my age Examples post to get a feel for how the module can help you:
 
 {% hint style="info" %}
 [EasyBPY Usage Examples](easybpy-usage-examples.md)
@@ -31,7 +31,6 @@ Following this, feel free to take a look at my [Usage Examples](https://curtisho
 
 #### What Functions are Available?
 
-No one wants to write documentation for each function and we have a lot of them, including convenience functions which route back to pre-existing functions. In the EasyBPY package, there is an [info.txt](https://github.com/curtisjamesholt/EasyBPY/blob/master/info.txt) file containing a list of all available functions. The [landing page](https://curtisholt.online/easybpy) will also give you a demonstration of the major categories of functions, and if you want more detail for argument contexts then just open the file.\
 The **easybpy.py** file is categorized with regions so all functions are kept in a neat order, open them up and take a look. If you’re concerned about argument contexts, you already know enough to read the code.
 
 > **Tip:** If using Visual Studio Code to open the file, press CTRL+K+0 to collapse all regions, this will help you to navigate the categories of the file faster.
