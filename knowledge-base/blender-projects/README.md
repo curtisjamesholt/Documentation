@@ -19,8 +19,8 @@ icon: blender
 [modular-workspaces.md](modular-workspaces.md)
 {% endcontent-ref %}
 
-{% content-ref url="curts-defaults.md" %}
-[curts-defaults.md](curts-defaults.md)
+{% content-ref url="blender-startup-file.md" %}
+[blender-startup-file.md](blender-startup-file.md)
 {% endcontent-ref %}
 
 {% content-ref url="modular-metals.md" %}
