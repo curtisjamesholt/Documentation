@@ -154,3 +154,16 @@ Total: 3 hours 38 minutes
 ( Total: 4 hours 29 minutes )
 
 </details>
+
+<details>
+
+<summary>16 January 2026</summary>
+
+* After updating web pages to point people to new BY-GEN information, going to quickly write a new page on the documentation for 'Changes Over Time'. This won't be granular detail about every change, but will give an overview to bring people up to speed.
+* Section 'Why So Many Changes' done.
+* Section 'Settling on the Content Pack System' done.
+* Section 'Compensation for Free Development' done.
+
+\+ 31 minutes
+
+</details>
