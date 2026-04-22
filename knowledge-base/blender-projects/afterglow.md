@@ -53,6 +53,8 @@ The following are a collection of resources that will help you learn how to use 
 
 <summary>Update Videos</summary>
 
+[Afterglow V2.3](https://youtu.be/9lNO7QUrX4o)
+
 [Afterglow V2.2](https://youtu.be/2-_zp3l7_cU)
 
 [Afterglow V2.1](https://youtu.be/62j5fGlhOyk)
